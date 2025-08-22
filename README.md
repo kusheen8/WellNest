@@ -1,49 +1,52 @@
-# WellNest
-🌿 WellNest – Your Personal Wellness &amp; Workout Tracker WellNest is a minimalist, wellness-focused web app built to help users log workouts, track fitness progress, and stay consistent with their goals. Designed with a soothing aesthetic and subtle animations, it encourages mindful movement and healthy habits through an intuitive interface.
-🛠 Tech Used
-React (Frontend)
+# 🧘‍♀️ WellNest Tracker
 
-Node.js + Express (Backend)
+**Track your workouts. Stay consistent. Build your wellness.**
 
-MongoDB (Database)
+WellNest is a full-stack fitness tracking app designed to help users log daily workouts, monitor weekly progress, and manage their exercise history with ease. Built with modern web technologies and a focus on simplicity, it's your personal companion for staying active and accountable.
 
-Framer Motion for animations
+## 🌐 Live Demo
 
-Axios for API calls
+- **Frontend**: [https://wellnest-client.onrender.com](https://wellnest-client.onrender.com)
+- **Backend**: [https://wellnest-server.onrender.com](https://wellnest-server.onrender.com)
 
-JWT Auth for login/signup
+## 🛠️ Tech Stack
 
-🚀 Getting Started
-1.Put folder name
-cd wellnest
-2. Install Dependencies (Frontend)
-bash
-Copy
-Edit
-npm install
-3. Start the Frontend
-bash
-Copy
-Edit
-npm start
-This will run the app at: http://localhost:3000
+- **Frontend**: React (Create React App)
+- **Backend**: Node.js + Express
+- **Database**: MongoDB Atlas
+- **Authentication**: JWT (JSON Web Tokens)
+- **Deployment**: Render (Client & Server)
 
-🔌 Backend Setup (Optional but recommended)
-If your backend is in a server folder or separate repo:
+## 📦 Features
 
-bash
-Copy
-Edit
+- 🔐 Secure user authentication with JWT
+- 📅 Weekly dashboard to view workout history
+- ➕ Add workouts with custom details
+- 🗑️ Delete workouts instantly
+- ⚙️ Full CRUD operations with seamless frontend-backend integration
+
+## 📁 Project Structure
+
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/kusheen8/WellNest.git
+cd WellNest
+# Backend
 cd server
 npm install
+
+# Frontend
+cd ../client
+npm install
+
+For starting the Project
+# Backend
+cd server
 npm run dev
-Make sure MongoDB is running and your .env file has the correct database URL and secret keys.
 
-🧠 How to Use
-Sign up or log in
-
-Add your workout (sets, reps, exercises)
-
-See your dashboard stats and progress
-
-Stay consistent and track your goals
+# Frontend
+cd ../client
+npm start
